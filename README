@@ -1,0 +1,14 @@
+Here I tried to create the Django Project not for production, testing purpose only.
+
+Django version - 2.2.6
+MySQL version - 5.7.27
+Python - 3.6.8
+
+MySQL Related Information 
+if u want to use my testing project, i want to tell u that i am not using defautl sqlite3 database, so i request u to create a mysql database. The information for creating mysql database and user is given below
+MySQL Code
+1. create database testingdb
+2. create user 'tuser'@'localhost' identified by 'Abc_user123'
+3. grant all privileges on testingdb.* to 'tuser'@'localhost'
+
+The above 3 Steps are necessary to run my testing project without any error 
